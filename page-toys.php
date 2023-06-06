@@ -41,7 +41,7 @@ Template Name: Іграшки
                                 <div class="toys__item-descr">
                                     <?php the_field('toys_descr');  ?>                            
                                 </div>
-                                <div class="minibutton toys__trigger">Детальніше</div>
+                                <a href="<?php echo get_permalink(); ?>" class="minibutton toys__trigger">Детальніше</a>
                             </div>
                         </div>
                     <?php               
@@ -83,7 +83,7 @@ Template Name: Іграшки
                                 <div class="toys__item-descr">
                                     <?php the_field('toys_descr');  ?>                            
                                 </div>
-                                <div class="minibutton toys__trigger">Детальніше</div>
+                                <a href="<?php echo get_permalink(); ?>" class="minibutton toys__trigger">Детальніше</a>
                             </div>
                         </div>
                     <?php               
